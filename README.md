@@ -1,0 +1,6 @@
+                        Procédure de deploiement en local 
+    -première il faut recupérer en local le depot distant sur votre pc via la commande "git clone url_du_depot_github".
+
+    -deuxiemement après avoir recupéré le projet en local bien vouloir se brancher sur le repertoire du projet et l'ouvrir sur un IDE  de son choix de preference Vscode.
+
+    -Troisièmement, cette etape necessite une connexion internet parce qu'il faudrait faire un "npm install" pour charger les dependances manquantes car si vous exécutez directement nom run dev une erreur surviendra "next is not recognized as an external commande.." , alors le "npm install" va resoudre cette erreur , ensuite modifier la version de nodeJs installé sur son pc à la version 14 mais si vous l'avez déjà tant mieux , mais si toi tu ne l'as  faudrait avoir nvm qui permet de changer les versions nodes plus rapidement par la commande " nvm install 14.x' avec x un nombre , l'installation aura lieu et ensuite on vous demandera d'executer la commande "nvm use 14.x" pour utiliser cette version de nodeJs , faudra le faire puis executez "npm run dev" qui va charger votre projet final . 
